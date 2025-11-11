@@ -4,3 +4,4 @@ MovRev is a movie review application that inculdes different features and functi
 - Hottest Movie Ranking
 - Movie Search by its name,type    by realeased date, user's favourite --> developing
 - 
+Still a prototype project now.
