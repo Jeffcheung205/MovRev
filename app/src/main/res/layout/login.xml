@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#000000"> <!-- Background color is black -->
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back"
+    android:background="@null"
+    android:contentDescription="Back"
+    android:layout_gravity="start"/>
+    <!-- Login Title -->
+    <TextView
+        android:id="@+id/loginTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="32dp"
+        android:textColor="#FFFFFF" /> <!-- Text color is white -->
+
+    <!-- User Name Field -->
+    <TextView
+        android:id="@+id/userNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Name"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"
+        android:textColor="#FFFFFF" /> <!-- Text color is white -->
+
+    <EditText
+        android:id="@+id/userNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your username"
+        android:inputType="text"
+        android:padding="12dp"
+        android:background="#FFFFFF"
+    android:layout_marginBottom="16dp" />
+
+    <!-- Password Field -->
+    <TextView
+        android:id="@+id/passwordLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/passwordInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your password"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:background="#FFFFFF"
+    android:layout_marginBottom="24dp" />
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+    android:layout_marginBottom="16dp" />
+
+
+    <!-- Registration Link -->
+    <TextView
+        android:id="@+id/registrationLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registration"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+    android:layout_gravity="center_horizontal"
+    android:clickable="true"
+    android:focusable="true" />
+
+</LinearLayout>

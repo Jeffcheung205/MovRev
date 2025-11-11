@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:layout_marginBottom="16dp"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/poster1"
+            android:layout_width="60.75dp"
+            android:layout_height="90dp"
+            android:layout_marginEnd="8dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Avengers : Endgame"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:id="@+id/title"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Release Date: 24/4/2019"
+            android:textSize="14sp"
+            android:id="@+id/releaseDate"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Genre: N/A"
+            android:textSize="14sp"
+            android:id="@+id/genre"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="TBA"
+            android:textSize="14sp"
+            android:id="@+id/rating"/>
+    </LinearLayout>
+
+</LinearLayout>

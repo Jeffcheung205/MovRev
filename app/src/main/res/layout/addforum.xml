@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#000000">
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back"
+        android:background="@null"
+        android:contentDescription="Back"
+        android:layout_gravity="start"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Forum"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="32dp"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forum Name"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/ForumNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter forum name"
+        android:inputType="text"
+        android:padding="12dp"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Content"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/ForumContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minLines="4"
+        android:hint="Enter content (optional)"
+        android:inputType="textMultiLine"
+        android:padding="12dp"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/submitButtonNewForum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp" />
+</LinearLayout>

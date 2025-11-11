@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:background="@null"
+        android:contentDescription="Back"
+        android:src="@drawable/back" />
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000000"
+            android:orientation="vertical"
+            android:padding="16dp">
+            <!-- Login Title -->
+
+            <ImageView
+                android:id="@+id/poster1"
+                android:layout_width="148.5dp"
+                android:layout_height="220dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/black" />
+
+            <Button
+                android:id="@+id/selectphoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="16dp"
+                android:text="Select Photo"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="New Movie"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold" /> <!-- Text color is white -->
+
+            <!-- User Name Field -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Movie Name"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" /> <!-- Text color is white -->
+
+            <EditText
+                android:id="@+id/MovieNameInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:background="#FFFFFF"
+                android:hint="Enter forum name"
+                android:inputType="text"
+                android:padding="12dp" />
+
+            <!-- Text color is white -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Release Date"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/MovieDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:background="#FFFFFF"
+                android:hint="Enter Date"
+                android:inputType="date"
+                android:padding="12dp" />
+
+            <!-- Password Field -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Content"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/MovieContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:background="#FFFFFF"
+                android:hint="Enter content"
+                android:padding="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Genre"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/MovieGenre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:hint="Enter content"
+                android:layout_centerInParent="true"
+                android:background="@android:drawable/editbox_background"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:padding="12dp" />
+
+            <!-- Submit Button -->
+            <Button
+                android:id="@+id/submitButtonNewMovie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Submit"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+        <!-- Registration Link -->
+    </ScrollView>
+
+</LinearLayout>
