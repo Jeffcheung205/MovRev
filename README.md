@@ -1,4 +1,4 @@
-# Movie Review Application
+# MovRev - Movie Review Application
 - AI Recommendation System
 - Moview Review and rating (Rating bar)
 - Hottest Movie Ranking
