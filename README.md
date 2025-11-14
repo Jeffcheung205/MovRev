@@ -1,7 +1,8 @@
-MovRev is a movie review application that inculdes different features and functions:
+# Movie Review Application
 - AI Recommendation System
 - Moview Review and rating (Rating bar)
 - Hottest Movie Ranking
-- Movie Search by its name,type    by realeased date, user's favourite --> developing
-- 
-Still a prototype project now.
+- Movie Search filterd by  its name,type    by realeased date, user's favourite --> developing
+  
+# Still Developing and improving this application.
+e.g add more function, improve UI.etc
